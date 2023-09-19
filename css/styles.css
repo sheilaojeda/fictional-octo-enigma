@@ -1,0 +1,72 @@
+
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+/**Movil**/
+@media (max-width:767px){
+    .desktop{display: none;  }
+    .tablet{display: none; }
+}
+/**Tablet**/
+@media (min-width: 768px) and (max-width: 998px) {
+    .desktop{ display: none;}
+    .movil{display: none;}
+}
+/**Escritorio**/
+@media (min-width: 991px) {
+    .tablet{display: none;}
+    .movil{display: none;}
+}
+
+
+#bienvenida {background-color: rgb(235, 235, 235);}
+
+#color {background-color: rgb(237, 163, 255);}
+
+.letra-grande {font-size: 20px;}
+
+#colores {background-color: rgb(243, 201, 201);}
+body {
+    background: rgb(173, 163, 169);
+}
+
+#partedearriba {width: 650px;
+margin: 0% auto;
+height: 50px;}
+
+header {background-color: rgb(243, 201, 201);
+height: 55px;}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+#imagen {
+    margin: 20px;
+    width: 500px;}
+
+#formulariocolor {background-color: rgb(243, 201, 201);}
+
+.card {background-color: rgb(243, 201, 201);
+width: 300px;
+}
+
+.padre-card {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.card img {
+    width: 300px;
+    ;
+}
+.card p {margin-bottom: 60px 0
+    ;}
+    
+
+    
